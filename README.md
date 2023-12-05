@@ -12,9 +12,9 @@ test_tiny - balanced accuracy 0.9333
 
 test_small - balanced accuracy 0.9072
 
-test -
+test - balanced accuracy 0.9020.
 
-Используя количество эпох = 5, была получена модель best_train_small. Со следующими результатами:
+Используя количество эпох = 5 и датасет train_small, была получена модель best_train_small. Со следующими результатами:
 
 10% of test_small - balanced accuracy 0.9889
 
@@ -22,4 +22,9 @@ test_tiny - balanced accuracy 0.9778
 
 test_small - balanced accuracy 0.9433
 
+10% of test - balanced accuracy 0.9911
+
 test - balanced accuracy 0.9458.
+
+
+В PDF файле представлены графики зависимости accuracy от эпохи. (к сожалению я не разобралась как убрать лишние строки из выходных данных, поэтому количесвто страниц в файле очень большое)
